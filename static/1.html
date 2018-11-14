@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap-datetimepicker.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/crm.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/gcgl.css" />
+  <script src="./6.js" type="text/javascript" charset="utf-8"></script>
+
+
+  </div>
+    dfsdfwerf
+  </div>
+
+  <script>
+    $(function(){
+
+      $.ajax({
+        type:"get",
+        url:"http://yxbmall.5173.com/frontend/services/purchaseData/getFundInfo",
+        data:{
+          isRead:true,
+          isNewFund:true,
+        },
+        dataType:"json",
+        success:function(data){
+          console.log(data)
+        }
+      })
+    })
+
+  </script>
+
+
+  </body>
+</html>
+
+
